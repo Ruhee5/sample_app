@@ -2,7 +2,7 @@ module ApplicationHelper
   
   # Return a title on a per-page basis.
   def title
-    base_title = "Ruby on Rails Tutorial Sample App"
+    base_title = "Salaam World App"
     if @title.nil?
       base_title
     else
@@ -12,8 +12,8 @@ module ApplicationHelper
   
   
   def takbir
-    x = ""
-    3.times { x += "Allahu Akbar!!! "}
+    x = "Takbir! --  "
+    3.times { x += "Allahu Akbar!! "}
     x
   end
   
