@@ -12,9 +12,15 @@ module ApplicationHelper
   
   
   def takbir
-    x = "Takbir! --  "
+    x = "Takbir! ---  "
     3.times { x += "Allahu Akbar!! "}
     x
+  end
+  
+  
+  #Ex 5.5.1
+  def logo
+    image_tag("salaamlogo.png", :alt => "Salaam App", :class => "round")
   end
   
 end
