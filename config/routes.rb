@@ -1,4 +1,5 @@
 SampleApp::Application.routes.draw do
+  resources :users
   
   ### old ch3 code
   # get "pages/home"
@@ -6,8 +7,8 @@ SampleApp::Application.routes.draw do
   # get "pages/about"
   # get "pages/help"
   
-  
-  get "users/new"
+  ### old ch4,5,6 code
+  # get "users/new"
   
   
   match '/contact', :to => 'pages#contact'
